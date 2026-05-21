@@ -1,0 +1,131 @@
+/* ROOT */
+.inventory-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1d2671, #c33764);
+  padding: 40px 25px 80px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HERO */
+.inventory-hero {
+  text-align: center;
+  margin-bottom: 60px;
+  color: #fff;
+}
+
+.inventory-hero h1 {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.inventory-hero p {
+  margin-top: 10px;
+  opacity: 0.9;
+  letter-spacing: 0.5px;
+}
+
+/* GRID */
+.inventory-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  gap: 40px;
+}
+
+/* GLASS CARD */
+.inventory-glass-card {
+  backdrop-filter: blur(14px);
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 24px;
+  padding: 30px;
+  color: #fff;
+  box-shadow:
+    0 25px 45px rgba(0, 0, 0, 0.2),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.2);
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.inventory-glass-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.25),
+    transparent
+  );
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.inventory-glass-card:hover::before {
+  opacity: 1;
+}
+
+.inventory-glass-card:hover {
+  transform: translateY(-12px) scale(1.02);
+}
+
+/* CARD TOP */
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* BLOOD GROUP */
+.blood-group {
+  background: radial-gradient(circle, #ff4b2b, #ff416c);
+  padding: 8px 18px;
+  border-radius: 50px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* STATUS */
+.status {
+  padding: 6px 14px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.status.in {
+  background: rgba(46, 204, 113, 0.3);
+  color: #2ecc71;
+}
+
+.status.out {
+  background: rgba(231, 76, 60, 0.3);
+  color: #e74c3c;
+}
+
+/* QUANTITY */
+.quantity {
+  margin: 30px 0;
+  font-size: 44px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.quantity span {
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+/* DIVIDER */
+.divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.35);
+  margin: 20px 0;
+}
+
+/* INFO */
+.info p {
+  font-size: 14px;
+  opacity: 0.95;
+  margin-bottom: 8px;
+  word-break: break-word;
+}
