@@ -1,160 +1,156 @@
-# 🩸 MERN Blood Bank Management System
+# MERN Blood Bank Management System
 
-## 📖 Overview
+A full-stack Blood Bank Management System built using the MERN Stack (MongoDB, Express.js, React.js, and Node.js). This application helps organizations, hospitals, donors, and administrators efficiently manage blood inventory, donations, and requests through a centralized platform.
 
-The Blood Bank Management System is a full-stack web application developed using the MERN Stack (MongoDB, Express.js, React.js, and Node.js). The system helps manage blood donations, blood inventory, donor records, and blood requests efficiently through a secure and user-friendly interface.
+## Features
 
-This project aims to streamline blood bank operations and ensure quick access to blood availability information for hospitals, organizations, and donors.
+### Authentication & Authorization
 
----
+* User Registration and Login
+* JWT-based Authentication
+* Protected Routes
+* Role-based Access Control
 
-## ✨ Features
+### Blood Inventory Management
 
-- 🔐 User Authentication & Authorization
-- 👤 Donor Registration and Management
-- 🩸 Blood Inventory Tracking
-- 📋 Blood Donation Records Management
-- 🏥 Hospital and Organization Management
-- 📊 Admin Dashboard with Statistics
-- 🔍 Blood Availability Tracking
-- 📱 Responsive User Interface
-- 🗄️ Secure Data Storage with MongoDB
+* Add Blood Inventory
+* Track Blood Donations
+* Manage Blood Requests
+* Monitor Available Blood Stock
 
----
+### User Management
 
-## 🛠️ Tech Stack
+* Donor Management
+* Hospital Management
+* Organization Management
+* Admin Dashboard
+
+### Analytics
+
+* Blood Stock Analysis
+* Donation Statistics
+* Inventory Reports
+
+## Tech Stack
 
 ### Frontend
-- React.js
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap
+
+* React.js
+* Redux Toolkit
+* React Router DOM
+* Bootstrap
+* Axios
 
 ### Backend
-- Node.js
-- Express.js
+
+* Node.js
+* Express.js
+* JWT Authentication
+* bcrypt.js
 
 ### Database
-- MongoDB
 
-### Tools & Libraries
-- JWT Authentication
-- Axios
-- Bcrypt
-- Mongoose
-- Dotenv
+* MongoDB
+* Mongoose
 
----
-
-## 📂 Project Structure
+## Project Structure
 
 ```bash
-MERN-Blood-Bank-App/
+## Project Structure
+
+```bash
+MERN-Blood-Bank-App
+├── client
+│   ├── public
+│   │   └── assets/images
+│   ├── src
+│   │   ├── components
+│   │   │   ├── Layout
+│   │   │   ├── Routes
+│   │   │   ├── modal
+│   │   │   └── shared
+│   │   ├── pages
+│   │   │   ├── Admin
+│   │   │   ├── Analytics
+│   │   │   ├── auth
+│   │   │   ├── Dashboard
+│   │   │   └── Inventory
+│   │   ├── redux
+│   │   ├── services
+│   │   ├── styles
+│   │   ├── App.js
+│   │   └── index.js
+│   ├── package.json
+│   └── .env
 │
-├── client/
-│   ├── src/
-│   └── public/
-│
-├── server/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── middleware/
-│   └── config/
-│
+├── config
+│   └── db.js
+├── controllers
+├── middlewares
+├── models
+├── routes
+├── utils
+├── server.js
 ├── package.json
 └── README.md
 ```
 
----
+```
 
-## 🚀 Installation
+## Installation
 
-### Clone the Repository
+### Clone Repository
 
 ```bash
-git clone https://github.com/AyshaMalik-Code/MERN-Blood-Bank-App.git
+git clone <repository-url>
+cd MERN-Blood-Bank-App
 ```
 
 ### Install Dependencies
 
-#### Backend
-
 ```bash
-cd server
 npm install
-```
-
-#### Frontend
-
-```bash
 cd client
 npm install
 ```
 
----
+### Environment Variables
 
-## ⚙️ Environment Variables
-
-Create a `.env` file inside the server folder and add:
+Create a `.env` file in the root directory and add:
 
 ```env
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
+PORT=8080
+MONGO_URL=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 ```
 
----
-
-## ▶️ Run the Application
-
-### Start Backend
+### Run Project
 
 ```bash
-npm run server
+npm run dev
 ```
 
-### Start Frontend
+## Modules
 
-```bash
-npm start
-```
+* Admin Panel
+* Donor Panel
+* Hospital Panel
+* Organization Panel
+* Blood Inventory System
+* Analytics Dashboard
 
----
+## Future Enhancements
 
-## 🔮 Future Enhancements
+* Email Notifications
+* SMS Alerts
+* Blood Request Tracking
+* Advanced Reporting
+* Mobile Responsive Improvements
 
-- Blood Donation Appointment Scheduling
-- Email & SMS Notifications
-- Blood Availability Prediction
-- Report Generation
-- Advanced Analytics Dashboard
-- Real-Time Blood Request Tracking
+## Author
 
----
+Aysha Malik
 
-## 📚 Learning Outcomes
+## License
 
-Through this project, I gained hands-on experience in:
-
-- MERN Stack Development
-- REST API Development
-- Authentication & Authorization
-- Database Design and Management
-- Frontend-Backend Integration
-- Version Control using Git & GitHub
-
----
-
-## 👩‍💻 Author
-
-**Aysha Malik**
-
-BCA Final Year Student | MERN Stack Developer
-
-GitHub: https://github.com/AyshaMalik-Code
-
----
-
-⭐ If you found this project useful, don't forget to give it a star!
+This project is developed for educational and learning purposes.
