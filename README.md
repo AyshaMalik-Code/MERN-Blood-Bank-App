@@ -49,7 +49,7 @@ Blood-Bank-Management-System/
 └── README.md
 Installation
 Clone the Repository
-git clone https://github.com/your-username/blood-bank-management-system.git
+git clone https://github.com/AyshaMalik-Code/MERN-Blood-Bank-App.git
 Install Dependencies
 # Backend
 cd server
