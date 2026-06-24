@@ -1,9 +1,9 @@
-🩸 Blood Bank Management System
-Overview
+#🩸 Blood Bank Management System
+##Overview
 
 The Blood Bank Management System is a full-stack web application built using the MERN Stack (MongoDB, Express.js, React.js, and Node.js). It helps manage blood donations, blood inventory, donor records, and blood requests efficiently through a user-friendly interface.
 
-Features
+##Features
 User Authentication & Authorization
 Donor Registration and Management
 Blood Inventory Tracking
@@ -13,7 +13,7 @@ Hospital and Organization Management
 Dashboard with Statistics
 Responsive User Interface
 Secure Data Storage using MongoDB
-Technologies Used
+##Technologies Used
 Frontend
 React.js
 HTML5
@@ -31,7 +31,7 @@ Axios
 Bcrypt
 Mongoose
 dotenv
-Project Structure
+##Project Structure
 Blood-Bank-Management-System/
 │
 ├── client/
@@ -47,7 +47,7 @@ Blood-Bank-Management-System/
 │
 ├── package.json
 └── README.md
-Installation
+##Installation
 Clone the Repository
 git clone https://github.com/AyshaMalik-Code/MERN-Blood-Bank-App.git
 Install Dependencies
@@ -71,13 +71,13 @@ npm run server
 
 # Frontend
 npm start
-Future Enhancements
+##Future Enhancements
 Blood Donation Appointment Scheduling
 Email & SMS Notifications
 Blood Availability Prediction
 Report Generation
 Admin Analytics Dashboard
-Learning Outcomes
+##Learning Outcomes
 
 Through this project, I gained hands-on experience in:
 
@@ -87,7 +87,7 @@ Authentication & Authorization
 Database Design and Management
 Frontend-Backend Integration
 Version Control using Git & GitHub
-Author
+##Author
 
 Aysha Malik
 
