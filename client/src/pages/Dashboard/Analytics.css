@@ -1,0 +1,116 @@
+body {
+  background: #e6e9f0;
+}
+
+/* 🔹 TOP TEXT */
+.analytics-top {
+  padding: 30px 35px 10px;
+}
+
+.analytics-top h1 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #333;
+}
+
+.analytics-top p {
+  font-size: 15px;
+  color: #666;
+  margin-top: 6px;
+  max-width: 760px;
+}
+
+/* 🔹 GRID */
+.analytics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 26px;
+  padding: 30px;
+}
+
+/* 🔹 CARD */
+.blood-card-lg {
+  height: 296px;
+  background: #e6e9f0;
+  border-radius: 22px;
+  box-shadow:
+    10px 10px 20px #c9ccd1,
+    -10px -10px 20px #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+}
+
+.blood-card-lg:hover {
+  transform: translateY(-6px);
+  box-shadow:
+    inset 6px 6px 12px #c9ccd1,
+    inset -6px -6px 12px #ffffff;
+}
+
+/* 🔹 HEADER (CURVED SHAPE) */
+.card-header-lg {
+  margin: 15px;
+  padding: 12px;
+  border-radius: 22px 22px 12px 12px;
+  background: #e6e9f0;
+  box-shadow:
+    inset 5px 5px 10px #c9ccd1,
+    inset -5px -5px 10px #ffffff;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* 🔹 CONTENT (PILL SHAPE) */
+.card-content-lg {
+  margin: 0 20px;
+  padding: 16px 20px;
+  border-radius: 20px;
+  background: #e6e9f0;
+  box-shadow:
+    8px 8px 16px #c9ccd1,
+    -8px -8px 16px #ffffff;
+  font-size: 16px;
+  color: #444;
+}
+
+.card-content-lg p {
+  margin: 10px 0;
+}
+
+.card-content-lg span {
+  font-weight: bold;
+}
+
+/* 🔹 FOOTER (CAPSULE) */
+.card-footer-lg {
+  margin: 15px;
+  padding: 12px;
+  border-radius: 30px;
+  background: #e6e9f0;
+  box-shadow:
+    inset 5px 5px 10px #c9ccd1,
+    inset -5px -5px 10px #ffffff;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* 🔹 TABLE */
+.table {
+  background: #e6e9f0;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow:
+    6px 6px 12px #c9ccd1,
+    -6px -6px 12px #ffffff;
+}
+
+.table td {
+  background: #e6e9f0;
+  vertical-align: middle;
+}
