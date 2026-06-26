@@ -18,6 +18,9 @@ app.use(express.json());
 app.use(cors());
 app.use(morgan("dev"));
 
+app.get("/", (req, res) => {
+  res.send("Blood Bank API is Running 🚀");
+});
 //routes
 // 1 test route
 app.use("/api/v1/test", require("./routes/testRoutes"));
